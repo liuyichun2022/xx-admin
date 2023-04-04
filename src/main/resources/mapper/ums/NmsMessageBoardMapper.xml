@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xx.p.modules.portal.module.mapper.NmsCommendRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xx.p.modules.portal.module.entity.NmsCommendRecord">
+        <id column="id" property="id" />
+        <result column="news_id" property="newsId" />
+        <result column="member_id" property="memberId" />
+        <result column="nick_name" property="nickName" />
+        <result column="member_icon" property="memberIcon" />
+        <result column="location" property="location" />
+        <result column="message" property="message" />
+        <result column="create_time" property="createTime" />
+        <result column="deleted" property="deleted" />
+        <result column="tag" property="tag" />
+    </resultMap>
+
+</mapper>

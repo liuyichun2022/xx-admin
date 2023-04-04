@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xx.news.platform.modules.portal.module.mapper.NmsCollectRecordMapper">
+
+    <select id="pageSelectNewsId" resultType="com.xx.p.modules.portal.dto.CollectNewsDTO">
+        SELECT a.news_id as newsId, b.pub_time as pubTime
+        FROM nms_collect_record a, nms_news b
+        WHERE a.member_id = #{memberId} and a.news_id = b.id
+        ORDER BY b.pub_time desc
+    </select>
+
+</mapper>

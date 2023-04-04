@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xx.p.modules.portal.module.mapper.UmsMemberLoginLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xx.p.modules.portal.module.entity.UmsMemberLoginLog">
+        <id column="id" property="id" />
+        <result column="member_id" property="memberId" />
+        <result column="create_time" property="createTime" />
+        <result column="ip" property="ip" />
+        <result column="city" property="city" />
+        <result column="login_type" property="loginType" />
+        <result column="province" property="province" />
+    </resultMap>
+
+</mapper>
