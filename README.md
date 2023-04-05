@@ -5,7 +5,16 @@
 ## 功能概述
 主要功能
 1. 后端管理系统，权限，菜单角色管理
-2. 简单的内容管理服务, ueditor + 秀米编辑器, 实现了秀米图片或者视频文件转储
+![image](https://user-images.githubusercontent.com/16557117/229948046-0b6d1cb7-c24b-4b2b-9a04-8e7a565f8768.png)
+
+2. 简单的内容管理服务
+![image](https://user-images.githubusercontent.com/16557117/229948188-fc1a4098-a7fb-4b4c-8d5f-fe305bdb1c6a.png)
+
+3. UeditorPlus + 秀米编辑器, 实现了秀米图片或者视频文件转储
+![image](https://user-images.githubusercontent.com/16557117/229948287-c055e01a-f900-4f5e-b865-4f8b2eadef42.png)
+![image](https://user-images.githubusercontent.com/16557117/229948325-f2867732-828b-4c5c-b9ff-68a3224a964e.png)
+
+
 
 项目演示地址：
 http://1.13.22.158:8000/#/login
